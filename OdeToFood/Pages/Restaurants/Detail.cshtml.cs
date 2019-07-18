@@ -24,11 +24,11 @@ namespace OdeToFood.Pages.Restaurants
 
         public IActionResult OnGet(int restaurantId)
         {
-            Restaurant = restaurantData.GetById(restaurantId);
-            if(Restaurant == null)
-            {
-                return RedirectToPage("./NotFound");
-            }
+            //Restaurant = restaurantData.GetById(restaurantId);
+            //if(Restaurant == null)
+            //{
+            //    return RedirectToPage("./NotFound");
+            //}
             return Page();
         }
     }
